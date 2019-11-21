@@ -49,3 +49,10 @@
     background-color: yellow;
     border: 0;
 }
+
+.menu-bg{
+    /* background-image: url("../images/MenuHamburger.png"); */
+    background-image: url('../images/TopPicture.jpg');
+    background-size: cover;
+    height: 30rem;
+}
