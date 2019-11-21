@@ -1,0 +1,13 @@
+.xCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.yCenter{
+    display: flex;
+    align-items: center;
+}
+
+.pAbout, p{
+    font-size: 20px;
+}
