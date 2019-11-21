@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #breakfast{
 background: url(/images/chucksbf.png);
 height:100%;
@@ -7,3 +8,81 @@ background-repeat: no-repeat;
 }
 
 
+=======
+.bgYellow {
+    background-color: yellow;
+}
+
+.endRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+}
+
+.hero1 {
+    background-image: url('../images/TopPicture.jpg');
+    background-size: cover; 
+    height: 30rem; 
+    width: 75rem;
+    border-radius: 50px 0px 0px 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.bgBlack{
+    background-color: black;
+}
+.textWhite{
+    color:white;
+}
+.center1{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.yellow{
+    color:yellow;
+}
+.pics{
+    border-radius: 50px;
+}
+
+.xCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.yCenter{
+    display: flex;
+    align-items: center;
+}
+
+.aboutPage{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.pAbout, p{
+    font-size: 23px;
+}
+
+.imgAbout{
+    zoom: 1.4;
+    max-height: 448px;
+}
+
+.btn-warning{
+    background-color: yellow;
+    border: 0;
+}
+>>>>>>> c2c6c10e6e5337db4e71e8167c23dd0b182e51f8
