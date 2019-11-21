@@ -14,10 +14,11 @@
 </head>
 
 <body>
+    <!-- This is the top part of our page -->
     <div class="container-fluid bgYellow">
         <div class="row">
             <div class="col-xs-6 col-lg-3">
-                <img src="./images/chucksLogo.jpg" rel="stylesheet">
+                <img src="./images/chucksLogo.jpg" rel="stylesheet" alt="Chucks Logo">
             </div>
             <div class="col-lg-4"></div>
             <div class="col-xs-6 col-lg-5 endRight">
@@ -28,24 +29,14 @@
                                 <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="#About">About</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Menu
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Specialities</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Breakfast</a>
-                                    <a class="dropdown-item" href="#">Lunch</a>
-                                    <a class="dropdown-item" href="#">Dinner</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Menu">Menu</a>
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact & Location</a>
+                                <a class="nav-link" href="#Contact">Contact & Location</a>
                             </li>
                         </ul>
                     </div>
@@ -63,11 +54,64 @@
                     serving our locals for many more years to come.</p>
             </div>
             <div class="col-md-6 endRight">
-                <div class="hero1"></div>
+                <div class="hero1" alt="Chuck Burger"></div>
             </div>
         </div>
     </div>
+    <!-- This is the end of the first part -->
 
+    <!-- This is the beginning of the bottom -->
+    <div class="container-fluid bgYellow">
+        <h2 class="center"><a id="Contact"></a>Contact & location</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <h4>Call: (209) 473-9977</h4>
+            </div>
+            <div class="col-md-4 col-sm-12 column endRight">
+                <h3>Adress:
+                    5939 Pacific Ave
+                    Stockton, CA 95207</h3>
+            </div>
+            <div class="col-md-4 col-sm-12 endRight pl-0">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8441610209197!2d-121.32087448481867!3d38.00409527971824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900c5ce914ce1d%3A0x40f777ef5997de7c!2sChuck&#39;s%20Hamburgers!5e0!3m2!1sen!2sus!4v1574365426416!5m2!1sen!2sus"
+                    width="400" height="300" frameborder="0" style="border:0;" alt="Map of Chucks Hamburgers"
+                    allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+    <footer class = "bgBlack">
+        <div class="row">
+                <div class="col-md-2">
+                    <p>Chucks Logo</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2 column">
+                        <p class="textWhite center">Created by:</p>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <p class="yellow">Follow</p>
+                    </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <img src="./images/chucksFooter.jpg" rel="stylesheet" height="100rem" width="150rem" alt="Chucks logo">
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2 center">
+                <img src="./images/codestackLogoOrange.jpg" class="center mx-0" rel="stylesheet" height="75rem" width="100rem">
+            </div>
+            <div class="col-md-3"></div>
+            <div class="col-md-2">
+                <img class="pics" src="./images/twiiterLogo.png" rel="stylesheet" height="75rem" width="100rem">
+                <img src="./images/IGlogo.jpg" rel ="stylesheet" height="75rem" width="100rem">
+                <img src="./images/yelpLogo.jpg" rel="stylesheet" height="75rem" width="100rem">
+                <img src="./images/small-facebook-icon-2.jpg" rel="stylesheet" height="75rem" width="100rem">
+            </div>
+        </div>
+    </footer>
+    <!-- This is the end of the bottom -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
