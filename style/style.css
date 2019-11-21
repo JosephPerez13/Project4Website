@@ -1,3 +1,22 @@
-.bgYellow{
+.bgYellow {
     background-color: yellow;
+}
+
+.endRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.hero1 {
+    background-image: url('../images/TopPicture.jpg');
+    background-size: cover; 
+    height: 30rem; 
+    width: 75rem;
+    border-radius: 50px 0px 0px 50px;
 }
