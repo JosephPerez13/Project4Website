@@ -43,7 +43,7 @@
     color:yellow;
 }
 .pics{
-    border-radius: 50px;
+    border-radius: 70%;
 }
 
 .xCenter{
@@ -73,4 +73,9 @@
 .btn-warning{
     background-color: yellow;
     border: 0;
+}
+
+.bottom{
+    display: flex;
+    flex-flow:row wrap;
 }
