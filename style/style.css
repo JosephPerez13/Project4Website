@@ -82,7 +82,6 @@ background-repeat: no-repeat;
     border: 0;
 }
 
-.bottom{
-    display: flex;
-    flex-flow:row wrap;
+.sticky-top{
+    position: sticky;
 }

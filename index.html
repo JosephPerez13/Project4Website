@@ -9,41 +9,43 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="/style/style.css">
-        <link rel="stylesheet" href="/style/w3.css">
-        <title>Chucks Hamburgers!</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <link rel="stylesheet" href="/style/w3.css">
+    <title>Chucks Hamburgers!</title>
 </head>
 
 <body>
     <!-- This is the top part of our page -->
     <div class="container-fluid bgYellow">
-        <div class="row">
-            <div class="col-xs-6 col-lg-3">
-                <img src="./images/chucksLogo.jpg" rel="stylesheet" alt="Chucks Logo">
-            </div>
-            <div class="col-lg-4"></div>
-            <div class="col-xs-6 col-lg-5 endRight">
-                <nav class="navbar navbar-expand-lg navbar-light bgYellow">
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#About">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#Menu">Menu</a>
-                            </li>
+        <nav class="navbar navbar-expand-lg navbar-light container">
 
-                            <li class="nav-item">
-                                <a class="nav-link" href="#Contact">Contact & Location</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+            <a class="navbar-brand" href="./index.html"><img src="./images/chucksLogo.jpg" width="100%" height="100%"
+                    alt="Chucks Logo"></a>
+
+            <button class="ntoggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse sticky-top navbar-collapse endRight twenFugaz" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Specialities">Specialities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Menu">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contact">Contact & Location</a>
+                    </li>
+                </ul>
             </div>
-        </div>
+        </nav>
         <div class="row">
             <div class="col-md-6 middle">
                 <h2>Making Food Taste Better</h2>
@@ -99,7 +101,7 @@
             <div class="col-6">
                 <div class="row">
                     <div class="w3.col">
-                        <h2 class="bg-light p-3">Our Specialities</h2>
+                        <h2 class="bg-light p-3"><a id="Specialities"></a>Our Specialities</h2>
                     </div>
                 </div>
                 <div class="row">
@@ -123,7 +125,7 @@
                 </div>
                 <div class="w3.col-2 mx-2">
                     <div class="card" style="width: 18rem;">
-                        <img src="/images/what1.jpg" class="card-img-top" alt="Hamburger">
+                        <img src="/images/what1.jpg" class="card-img-top" alt="Beef Onion Burger">
                         <div class="card-body">
                             <h5 class="card-title">Beef Onion Burger</h5>
 
@@ -133,7 +135,7 @@
                 </div>
                 <div class="w3.col-2 mx-2">
                     <div class="card" style="width: 18rem;">
-                        <img src="/images/what2.jpg" class="card-img-top" alt="Hamburger">
+                        <img src="/images/what2.jpg" class="card-img-top" alt="Chicken Fried Steak">
                         <div class="card-body">
                             <h5 class="card-title">Chicken Fried Steak</h5>
 
@@ -142,7 +144,7 @@
                 </div>
                 <div class="w3.col-2 mx-2">
                     <div class="card" style="width: 18rem;">
-                        <img src="/images/what4.jpg" class="card-img-top" alt="Hamburger">
+                        <img src="/images/what4.jpg" class="card-img-top" alt="Pancake">
                         <div class="card-body">
                             <h5 class="card-title">Pancake </h5>
 
@@ -156,43 +158,51 @@
     <div class="container-fluid bgYellow">
         <div class="row">
             <div class="col">
-                    <h2 class="center"><a id="Contact"></a>Contact & location</h2>
+                <h2 class="center"><a id="Contact"></a>Contact & location</h2>
             </div>
         </div>
-            
+
         <div class="row">
             <div class="col-sm-12 col-md-4">
                 <h4>Call: (209) 473-9977</h4>
                 <h4>Adress:
-                        5939 Pacific Ave
-                        Stockton, CA 95207</h4>
+                    5939 Pacific Ave
+                    Stockton, CA 95207</h4>
             </div>
             <div class="col-sm-12 col-md-4">
-                    <iframe
+                
+                <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3143.8441610209197!2d-121.32087448481867!3d38.00409527971824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80900c5ce914ce1d%3A0x40f777ef5997de7c!2sChuck&#39;s%20Hamburgers!5e0!3m2!1sen!2sus!4v1574365426416!5m2!1sen!2sus"
-                   class="img-fluid" frameborder="0" style="border:0;" alt="Map of Chucks Hamburgers"
+                    class="img-fluid" frameborder="0" style="border:0;" title="Map of Chucks"
                     allowfullscreen=""></iframe>
             </div>
             <div class="col-sm-12 col-md-4 md-px-2">
-                <img src="./images/chucksOutsideView.jpg" rel="stylesheet" class="img-fluid"style="max-height: 15rem;">
+                <img src="./images/chucksOutsideView.jpg" rel="stylesheet" alt="Chucks restaurant" class="img-fluid" style="max-height: 15rem;">
             </div>
         </div>
     </div>
-    <footer class = "bgBlack">
+    <footer class="bgBlack">
         <div class="row pt-3">
             <div class="col-sm-12 col-md-4 center sm-py-2">
-                <img src="./images/chucksFooter.jpg" rel="stylesheet" height="100rem" width="150rem" alt="Chucks logo">
+                <img src="./images/chucksFooter.jpg" rel="stylesheet" height="100rem" width="150rem" alt="Chucks Footer">
             </div>
             <div class="col-md-1"></div>
             <div class="col-sm-12 col-md-2 center sm-py-2">
-                <img src="./images/codestackLogoOrange.jpg" class="center mx-0" rel="stylesheet" height="75rem" width="100rem">
+                <img src="./images/codestackLogoOrange.jpg" class="center mx-0" rel="stylesheet"  alt="CodeStack Logo"height="75rem">
             </div>
             <div class="col-md-1"></div>
-            <div class="col-sm-12 col-md-4 bottom sm-py-2">
-                <img class="pics" src="./images/twiiterLogo.png" rel="stylesheet" height="75rem" width="100rem">
-                <img src="./images/IGlogo.jpg" rel="stylesheet" height="75rem" width="100rem">
-                <img src="./images/yelpLogo.jpg" rel="stylesheet" height="75rem" width="100rem">
-                <img src="./images/small-facebook-icon-2.jpg" rel="stylesheet" height="75rem" width="100rem">
+            <div class="col-sm-12 col-md-1 sm-py-2">
+                <img class="pics img-fluid" src="./images/twiiterLogo.png" rel="stylesheet" alt="twitter Logo">
+            </div>
+            <div class="col-sm-12 col-md-1 sm-py-2">
+                <img class="pics img-fluid" src="./images/IGlogo.jpg" rel="stylesheet" alt="Instagram Logo">
+                </div>
+                <div class="col-sm-12 col-md-1 sm-py-2">
+                    <img class="pics img-fluid" src="./images/yelpLogo.jpg" rel="stylesheet" alt="yelp Logo">
+                </div>
+                <div class="col-sm-12 col-md-1 sm-py-2">
+                    <img class="pics img-fluid" src="./images/doordash.jpg" rel="stylesheet" alt="doordash Logo">
+                </div>
             </div>
         </div>
     </footer>
@@ -208,7 +218,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <script src="./script/script.js"></script>
+    <script src="./script/script.js"></script>
 </body>
 
 </html>
