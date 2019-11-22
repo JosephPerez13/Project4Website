@@ -3,9 +3,8 @@ background: url(/images/chucksbf.png);
 height:100%;
 background-size: cover;
 background-repeat: no-repeat;
-
+background-attachment: fixed;
 }
-
 
 .bgYellow {
     background-color: yellow;
@@ -89,8 +88,24 @@ background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 25%;
     background-position-y: 50%;
-    padding-top: 75px;
     padding-bottom: 75px;
-    min-height: 75rem;
 }
 
+.list-group{
+    display:flex;
+    flex-direction: row;
+}
+@media only screen and (max-width: 900px) {
+    .list-group {
+        display:flex;
+        flex-direction: column;
+    }
+  }
+
+.menu-bg .card{
+    background-color: transparent;
+}
+
+.list-group .active{
+    background-color: #004FA8;
+}
