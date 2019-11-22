@@ -85,3 +85,7 @@ background-repeat: no-repeat;
 .sticky-top{
     position: sticky;
 }
+.list-group{
+    display:flex;
+    flex-direction: row;
+}
